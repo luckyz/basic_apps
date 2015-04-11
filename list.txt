@@ -8,7 +8,9 @@ ppa|ppa:peterlevi/ppa
 ppa|ppa:nemh/systemback
 ppa|ppa:webupd8team/y-ppa-manager
 ppa|ppa:webupd8team/brackets
+remove|netcat-openbsd
 update|
-apt|grub-customizer rar ipython gconf-editor python-pip deluge meld uget filezilla graphviz vim openjdk-7-jdk cheese sublime-text-installer ubuntu-after-install variety systemback y-ppa-manager brackets python-tk git mercurial
+apt|netcat-traditional grub-customizer rar ipython gconf-editor python-pip deluge meld uget filezilla graphviz vim openjdk-7-jdk cheese sublime-text-installer ubuntu-after-install variety systemback y-ppa-manager brackets python-tk git mercurial
 pip|django==1.6 simpleai pyparsing==1.5.7 pydot flask virtualenv sphinx
 pip|pydot==1.0.28 --allow-external pydot --allow-unverified pydot
+upgrade|
