@@ -13,9 +13,13 @@ for line in f:
     if cmd == 'ppa':
         code = 'sudo add-apt-repository '
     elif cmd == 'update':
-        code = 'sudo apt-get update'
+        code = 'sudo apt-get update '
+    elif cmd == 'upgrade':
+        code = 'sudo apt-get upgrade'
     elif cmd == 'apt':
         code = 'sudo apt-get install '
+    elif cmd == 'remove':
+        code = 'sudo apt-get remove '
     elif cmd == 'pip':
         code = 'pip install '
 
