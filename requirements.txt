@@ -1,0 +1,18 @@
+ppa|ppa:mixxx/mixxx
+ppa|ppa:plushuang-tw/uget-stable
+ppa|ppa:team-xbmc/ppa
+ppa|ppa:danielrichter2007/grub-customizer
+ppa|ppa:thefanclub/ubuntu-after-install
+ppa|ppa:webupd8team/sublime-text-3
+ppa|ppa:peterlevi/ppa
+ppa|ppa:nemh/systemback
+ppa|ppa:webupd8team/y-ppa-manager
+ppa|ppa:webupd8team/brackets
+remove|netcat-openbsd
+update|
+apt|python-pip
+pipu|pip
+apt|netcat-traditional grub-customizer rar ipython gconf-editor deluge meld uget filezilla graphviz vim openjdk-7-jdk cheese sublime-text-installer ubuntu-after-install variety systemback y-ppa-manager brackets python-tk git mercurial
+pip|django==1.6 simpleai pyparsing==1.5.7 pydot flask virtualenv sphinx pudb
+pip|pydot==1.0.28 --allow-external pydot --allow-unverified pydot
+upgrade|
