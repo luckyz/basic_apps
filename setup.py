@@ -11,23 +11,26 @@ for line in f:
     app = command[1]
 
     if cmd == 'ppa':
+        prefix = 'yes ENTER | '
         code = 'sudo add-apt-repository '
     elif cmd == 'update':
-        code = 'sudo apt-get update '
+        prefix = ''
+        code = 'sudo apt-get update'
     elif cmd == 'upgrade':
+        prefix = ''
         code = 'sudo apt-get upgrade'
     elif cmd == 'pipu':
+        prefix = ''
         code = 'sudo pip install -U '
     elif cmd == 'apt':
+        prefix = 'yes | '
         code = 'sudo apt-get install '
     elif cmd == 'remove':
+        prefix = 'yes | '
         code = 'sudo apt-get remove '
     elif cmd == 'pip':
+        prefix = 'yes | '
         code = 'sudo pip install '
 
-    #if flag == False:
-    #    system('sudo -s')
-    #    flag = True
-
-    install = 'yes | ' + code + app
+    install = prefix + code + app
     system(install)
